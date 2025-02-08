@@ -66,6 +66,16 @@ ul {
 li {
     list-style-type:none;
     font-size:1.3rem;
+    transition:0.25s font-size ease-in-out
+}
+
+li:hover {
+    font-size:1.45rem;
+}
+
+li:active {
+    position:relative;
+    top:5px;
 }
 #welcome-section {
     margin-top:175px;
