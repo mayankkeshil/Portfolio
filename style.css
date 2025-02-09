@@ -83,9 +83,10 @@ li:active {
 
 #welcome {
     text-align:center;
-    font-size:2.5rem;
+    font-size:2.75rem;
     animation:slide 2s ease-in-out;
 }
+
 
 main {
     display:grid;
@@ -101,13 +102,14 @@ main {
     grid-column: 2 / 3;
     font-size:1.25rem;
     max-width:1000px;
+    
 
 }
+
 
 #about p {
     margin-bottom:2.5rem;
 }
-
 #project-intro {
     font-weight:bold;
     max-width:750px;
@@ -121,13 +123,25 @@ main {
     display:grid;
     grid-template-columns:repeat(3, 1fr);
     gap:10px;
+    height:100%;
+}
+
+.project-tile-wrapper {
+    border:4px solid black;
+    border-radius:20px;
+    height: 100%;
+    box-sizing:border-box;
 }
 
 .project-tile {
-    border:3px solid black;
-    padding:10px 20px;
-    height:100%;
-    border-radius:15px;
+    border-radius: 15px; 
+    border:7px solid transparent;
+    background: linear-gradient(white, white) padding-box, linear-gradient(45deg, #336dff, #33a2ff, #336dff) border-box; 
+    background-size: 200% 200%;
+    padding: 10px; 
+    height: 100%;
+    animation:gradient infinite 5s ease-in-out;
+    box-sizing:border-box;
 }
 
 footer {
@@ -165,7 +179,7 @@ footer {
     #projects {
         display: flex;
         flex-direction: column; /* Stack the items vertically */
-        gap:40px;
+        gap:70px;
   }
 }
 
