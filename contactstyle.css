@@ -50,6 +50,7 @@ a {
 #me {
     display:block;
     margin:0 auto;
+    border:5px solid white;
     border-radius:70px;
 }
 ul {
