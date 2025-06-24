@@ -64,6 +64,11 @@ a {
     border-radius:50%;
 }
 
+#degree {
+    text-align:center;
+    display:block;
+}
+
 ul {
     display:flex;
     flex-direction:row;
