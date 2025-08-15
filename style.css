@@ -195,7 +195,8 @@ footer {
     }
 
     #me {
-        width: 80%; 
+        width: 80%;
+        height:auto;
         margin: 0 auto;
     }
         
