@@ -102,7 +102,7 @@ li:active {
 
 main {
     display:grid;
-    grid-template-columns:1fr auto 1fr;
+    grid-template-columns:1fr 4fr 1fr;
 }
 
 #welcome-section {
@@ -188,9 +188,13 @@ footer {
 }
 
 @media (max-width:1300px) {
+    main {
+        display:block;
+        margin:0 20px;
+    }
     #projects {
         display: flex;
-        flex-direction: column; /* Stack the items vertically */
+        flex-direction: column;
         gap:70px;
   }
 }
