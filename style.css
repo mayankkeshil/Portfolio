@@ -102,7 +102,7 @@ li:active {
 
 main {
     display:grid;
-    grid-template-columns:1fr 4fr 1fr;
+    grid-template-columns:1fr auto 1fr;
 }
 
 #welcome-section {
