@@ -107,7 +107,7 @@ main {
 
 #welcome-section {
     grid-column: 1 / -1;
-    }
+}
 
 #about {
     margin:50px auto;
@@ -188,7 +188,7 @@ footer {
 }
 
 @media (max-width:1300px) {
-    main {
+    main, #logo {
         display:block;
         margin:0 20px;
     }
