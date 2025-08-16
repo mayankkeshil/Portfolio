@@ -7,6 +7,7 @@
     font-family:Liter;
     scroll-behavior:smooth;
     box-sizing:border-box;
+    
 }
 
 #about, #projects {
@@ -38,6 +39,8 @@ a {
     animation:gradient infinite 5s ease-in-out;
     background-size: 200% 200%;
 }
+
+
 
 #logo {
     position:relative;
@@ -188,10 +191,41 @@ footer {
     font-size:4rem;
 }
 
-@media (max-width:1300px) {
+@media (max-width:800px) {
     main {
         display:block;
         margin:0 20px;
+    }
+
+
+    #navbar {
+        display:grid;
+        grid-template-columns: 1fr 3fr 1fr;
+    }
+
+    #logo {
+        grid-column: 2 / 3;
+        margin:0 auto;
+       
+    }
+
+    #menu {
+        grid-column: 3 / 4;
+        margin:0 auto;
+    }
+
+    #menu-view {
+        z-index:999;
+        grid-column: 1 / -1;
+        text-align: center;
+        display:flex;
+        flex-direction:column;
+        gap:20px;
+        margin-top:20px;
+    }    
+
+    #menu-view li {
+        text-align:center;
     }
 
     #me {
@@ -205,18 +239,19 @@ footer {
         flex-direction: column;
         gap:70px;
   }
+
+    #desktop-view {
+        display:none;
+    }
 }
 
 @media (min-width:800px) {
     #menu {
         display:none;
     }
-}
-@media (max-width:800px) {
-    li {
-    display:none;
-  }
-
+    #menu-view {
+        display:none;
+    }
 }
 
 @keyframes slide {
