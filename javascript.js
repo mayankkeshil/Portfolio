@@ -1,3 +1,5 @@
+window.location.href = "https://portfolio-75an.onrender.com";
+
 const menuButton = document.getElementById("menu");
 const menuView = document.getElementById("menu-view");
 const menuViewHeight = menuView.offsetHeight;
